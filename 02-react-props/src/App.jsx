@@ -6,8 +6,8 @@ import seis from './assets/img/seis.jpg'
 import tres from './assets/img/tres.jpg'
 import uno from './assets/img/uno.jpg'
 import ilustracion from './assets/img/ilustracion.svg'
-import ilustracion1 from './assets/img/ilustracion1.svg'
 import Header from './components/Header'
+import Seccion1 from './components/Seccion1'
 
 function App () {
   return (
@@ -17,22 +17,16 @@ function App () {
         desc='Acabamos de aprender como pasar de HTML a JSX y hacerlo mas "dinamico" con PROPS'
         boton='Contáctame'
       />
-      <Header
-        titulo='Titulo 2'
-        desc='Este es un componente reutilizable'
-        boton='Genial'
+      <Seccion1
+        titulo='Hola desde JSX'
+        parrafo='Acabamos de aprender como pasar de HTML a JSX y hacerlo mas "dinamico" con PROPS'
+        textoBoton='Contáctame'
       />
-      <section className='wave-contenedor website'>
-        <img src={ilustracion1} alt='' />
-        <div className='contenedor-textos-main'>
-          <h2 className='titulo left'>Title of section</h2>
-          <p className='parrafo'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim reiciendis
-            molestias nam tempore. Ullam hic accusantium eligendi ipsam corrupti!
-          </p>
-          <a href='' className='cta'>Learn more</a>
-        </div>
-      </section>
-
+      <Seccion1
+        titulo='Hola desde JSX'
+        parrafo='Acabamos de aprender como pasar de HTML a JSX y hacerlo mas "dinamico" con PROPS'
+        textoBoton='Contáctame'
+      />
       <section className='info'>
         <div className='contenedor'>
           <h2 className='titulo left'>Juntos podemos apoyar</h2>
